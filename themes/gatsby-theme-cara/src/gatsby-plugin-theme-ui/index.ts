@@ -10,7 +10,8 @@ declare module "theme-ui" {
 
 const theme = merge(tailwind, {
   config: {
-    initialColorModeName: `dark`,
+    initialColorModeName: `light`,
+    useColorSchemeMediaQuery: false,
   },
   colors: {
     primary: tailwind.colors.orange[4],
@@ -23,7 +24,7 @@ const theme = merge(tailwind, {
     icon_brightest: tailwind.colors.white,
     icon_darker: tailwind.colors.gray[7],
     icon_darkest: tailwind.colors.gray[8],
-    icon_red: tailwind.colors.red[6],
+    icon_red: tailwind.colors.red[3],
     icon_blue: tailwind.colors.blue[6],
     icon_orange: tailwind.colors.orange[5],
     icon_yellow: tailwind.colors.yellow[5],
@@ -39,8 +40,8 @@ const theme = merge(tailwind, {
         divider: tailwind.colors.gray[2],
         textMuted: tailwind.colors.gray[6],
         icon_brightest: tailwind.colors.gray[2],
-        icon_darker: tailwind.colors.gray[4],
-        icon_darkest: tailwind.colors.gray[6],
+        icon_darker: tailwind.colors.gray[3],
+        icon_darkest: tailwind.colors.gray[4],
       },
     },
   },

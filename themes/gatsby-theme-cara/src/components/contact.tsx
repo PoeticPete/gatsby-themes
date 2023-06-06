@@ -37,7 +37,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       <Inner>
         <ContactMDX />
       </Inner>
-      <Footer />
+      {/* <Footer /> */}
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
