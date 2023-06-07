@@ -32,25 +32,25 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
-        <Svg icon="cheers" width={6} color="icon_brightest" left="85%" top="75%" />
-        <Svg icon="wine_glass" width={8} color="icon_teal" left="70%" top="20%" />
-        <Svg icon="triangle" width={8} stroke color="icon_orange" left="25%" top="5%" />
-        <Svg icon="sun" hiddenMobile width={24} color="icon_brightest" left="17%" top="60%" />
+        <Svg icon="wine_glass_2" width={6} color="icon_brightest" left="85%" top="75%" />
+        <Svg icon="wine_glass_2" width={8} color="icon_teal" left="70%" top="20%" />
+        <Svg icon ="wine_glass_2" width={8} color="icon_darker" left="25%" top="5%" />
+        <Svg icon ="wine_glass_2" hiddenMobile width={24} color="icon_brightest" left="17%" top="60%" />
       </UpDown>
       <UpDownWide>
-        <Svg icon="arrowUp" hiddenMobile width={16} color="icon_green" left="20%" top="90%" />
-        <Svg icon="triangle" width={12} stroke color="icon_brightest" left="90%" top="30%" />
-        <Svg icon="sun" width={16} color="icon_darker" left="70%" top="90%" />
-        <Svg icon="triangle" hiddenMobile width={16} stroke color="icon_teal" left="18%" top="75%" />
-        <Svg icon="sun" width={6} color="icon_brightest" left="75%" top="10%" />
-        <Svg icon="wine_glass" hiddenMobile width={8} color="icon_green" left="45%" top="10%" />
+        <Svg icon="wine_glass_2" hiddenMobile width={16} color="icon_green" left="20%" top="90%" />
+        <Svg icon ="wine_glass_2" width={12} color="icon_brightest" left="90%" top="30%" />
+        <Svg icon ="wine_glass_2" width={16} color="icon_darker" left="70%" top="90%" />
+        <Svg icon ="wine_glass_2" hiddenMobile width={16} color="icon_teal" left="18%" top="75%" />
+        <Svg icon ="wine_glass_2" width={6} color="icon_brightest" left="75%" top="10%" />
+        <Svg icon="wine_glass_2" hiddenMobile width={8} color="icon_green" left="45%" top="10%" />
       </UpDownWide>
-      <Svg icon="sun" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" />
-      <Svg icon="sun" width={12} color="icon_pink" left="80%" top="60%" />
-      <Svg icon="cheers" width={6} color="icon_orange" left="10%" top="10%" />
-      <Svg icon="cheers" width={12} color="icon_darker" left="29%" top="26%" />
-      <Svg icon="hexa" width={16} stroke color="icon_red" left="75%" top="30%" />
-      <Svg icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
+      <Svg icon ="wine_glass_2" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" />
+      <Svg icon ="wine_glass_2" width={12} color="icon_brightest" left="80%" top="60%" />
+      <Svg icon="wine_glass_2" width={6} color="icon_darker" left="10%" top="10%" />
+      <Svg icon="wine_glass_2" width={12} color="icon_darker" left="29%" top="26%" />
+      <Svg icon="wine_glass_2" width={16} color="icon_red" left="75%" top="30%" />
+      <Svg icon="wine_glass_2" width={8} color="icon_darker" left="80%" top="70%" />
     </Divider>
   </div>
 )
