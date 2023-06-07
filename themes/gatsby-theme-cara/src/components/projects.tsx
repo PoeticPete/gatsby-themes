@@ -33,7 +33,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
         <Svg icon="wine_glass_2" width={6} color="icon_brightest" left="85%" top="75%" />
-        <Svg icon="wine_glass_2" width={8} color="icon_teal" left="70%" top="20%" />
+        <Svg icon="wine_glass_2" width={8} color="icon_darker" left="70%" top="20%" />
         <Svg icon ="wine_glass_2" width={8} color="icon_darker" left="25%" top="5%" />
         <Svg icon ="wine_glass_2" hiddenMobile width={24} color="icon_brightest" left="17%" top="60%" />
       </UpDown>
@@ -41,7 +41,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
         <Svg icon="wine_glass_2" hiddenMobile width={16} color="icon_green" left="20%" top="90%" />
         <Svg icon ="wine_glass_2" width={12} color="icon_brightest" left="90%" top="30%" />
         <Svg icon ="wine_glass_2" width={16} color="icon_darker" left="70%" top="90%" />
-        <Svg icon ="wine_glass_2" hiddenMobile width={16} color="icon_teal" left="18%" top="75%" />
+        <Svg icon ="wine_glass_2" hiddenMobile width={16} color="icon_darker" left="18%" top="75%" />
         <Svg icon ="wine_glass_2" width={6} color="icon_brightest" left="75%" top="10%" />
         <Svg icon="wine_glass_2" hiddenMobile width={8} color="icon_green" left="45%" top="10%" />
       </UpDownWide>
